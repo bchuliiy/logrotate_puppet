@@ -1,0 +1,12 @@
+
+---
+
+classes:
+
+  - 'packages'
+
+
+packages::install:
+  - 'jq'
+
+

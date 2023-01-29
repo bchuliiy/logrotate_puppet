@@ -1,0 +1,18 @@
+---
+
+classes:
+#  - 'packages::manage'
+  - 'ntp'
+#  - 'redis'
+
+
+ntp::restrict:
+  - 'default kod nomodify notrap nopeer noquery'
+  - '-6 default kod nomodify notrap nopeer noquery'
+  - '127.0.0.1'
+  - '-6 ::1'
+ntp::service_ensure: running
+ntp::service_enable: true
+ntp::servers:
+  - 'nl.pool.ntp.org'
+  - 'de.pool.ntp.org'
