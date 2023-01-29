@@ -1,7 +1,7 @@
 ---
 
 classes:
-#  - 'packages::manage'
+  - 'packages::manage'
   - 'ntp'
 #  - 'redis'
 
