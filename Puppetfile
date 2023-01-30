@@ -1,9 +1,11 @@
 forge 'forge.puppetlabs.com'
 
-mod 'puppetlabs/apt', '8.0.2'
-mod 'puppetlabs/ntp', '9.0.1'
-mod 'puppet-nginx', '4.2.0'
-mod 'puppetlabs/stdlib', '7.0.1'
+mod 'puppetlabs-stdlib', '8.5.0'
+mod 'puppetlabs/apt', '9.0.1'
+mod 'puppetlabs/ntp', '9.2.0'
+mod 'bashtoni/timezone', '1.0.0'
+mod 'razorsedge/lsb', '1.2.0'
+
 
 
 mod 'packages',
