@@ -10,6 +10,6 @@ mod 'packages',
   :git => 'https://github.com/greenaar/puppet-packages.git',
   :branch => 'master'
 
-mod 'logrotate-evo',
+mod 'logrotate',
   :git => 'git@github.com:bchuliiy/logrotate-evo.git',
   :branch => 'production'
