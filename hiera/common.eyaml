@@ -12,6 +12,4 @@ packages::install:
   - 'curl'
   - 'git'
   - 'htop'
-  - 'jq'
   - 'mc'
-
