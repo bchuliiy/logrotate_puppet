@@ -1,10 +1,10 @@
-
 ---
 
-classes:[]
+classes:
+  - 'packages::manage'
+
 
 
 packages::install:
-  - 'nginx'
-
+  - 'jq'
 
