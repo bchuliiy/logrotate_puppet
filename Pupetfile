@@ -9,3 +9,7 @@ mod 'puppetlabs/stdlib', '7.0.1'
 mod 'packages',
   :git => 'https://github.com/greenaar/puppet-packages.git',
   :branch => 'master'
+
+mod 'logrotate-evo',
+  :git => 'git@github.com:bchuliiy/logrotate-evo.git',
+  :branch => 'production'
