@@ -2,7 +2,7 @@
 ---
 
 classes:
-
+  - 'logrotate'
   - 'packages'
 
 
@@ -10,3 +10,17 @@ packages::install:
   - 'jq'
 
 
+
+logrotate::rotate_period: 'weekly'
+logrotate::rotate: 4
+logrotate::create: true
+logrotate::config_dir: '/etc/logrotate.d'
+
+logrotate::pools:
+  nginx:
+    log_dir:
+      - '/var/log/nginx/*.log'
+      - '/vhosts/multisite/logs/*.log'
+      - '/vhosts/multisite/logs/nginx/*.log'
+      - '/vhosts/multisite/logs/nginx/*/*.log'
+    rotate_period: 'daily'
